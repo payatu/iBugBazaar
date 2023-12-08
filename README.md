@@ -13,7 +13,7 @@ We've bundled **20+ vulnerabilities** into a single application, saving you from
 Whether you're a security enthusiast, developer, beginner exploring the mobile pentesting arena, or a professional looking to hone your skills, iBugBazaar has something for everyone on the mobile pentesting learning curve.
  
 ## 🤔What's in for me?
-iBugBazaar offers a wide range of vulnerabilities, from  Arbitrary file write to authentication bypass, Patching the app binary and limit bypass, — we've got a lot of things covered.
+iBugBazaar offers a wide range of vulnerabilities, from  Arbitrary webview exploitation, authentication bypass, Patching the app binary and limit bypass, Runtime Manipulation — we've got a lot of things covered.
  
 ## 🤓Never-Ending Learning
 What's more exciting? Stay in sync with the evolving landscape! BugBazaar regularly updates with fresh vulnerabilities and captivating challenges. Stay vigilant, stay ahead! Get Started Today!
