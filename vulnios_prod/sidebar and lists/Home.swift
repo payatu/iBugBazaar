@@ -64,7 +64,7 @@ struct Home_Previews: PreviewProvider {
 struct HomeView: View {
     var body: some View {
         VStack(alignment: .leading, spacing: 10) {
-            Text("BugBazaar Project")
+            Text("Project BugBazaar")
                 .font(.title)
                 .fontWeight(.bold)
                 .padding()
