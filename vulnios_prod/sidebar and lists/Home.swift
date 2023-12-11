@@ -64,7 +64,7 @@ struct Home_Previews: PreviewProvider {
 struct HomeView: View {
     var body: some View {
         VStack(alignment: .leading, spacing: 10) {
-            Text("BugBazaar Project")
+            Text("Project BugBazaar")
                 .font(.title)
                 .fontWeight(.bold)
                 .padding()
@@ -75,7 +75,9 @@ struct HomeView: View {
                 .padding()
                 .frame(maxWidth: .infinity, alignment: .leading)
 
-            Text("Project Code - GitHub Link")
+    
+            
+            Link("Project Code - GitHub Link", destination: URL(string: "https://github.com/payatu/iBugBazaar")!)
                 .font(.headline)
                 .padding()
                 .frame(maxWidth: .infinity, alignment: .leading)

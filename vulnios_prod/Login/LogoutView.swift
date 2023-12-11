@@ -12,7 +12,7 @@ struct LogoutView: View {
     
     var body: some View {
         VStack {
-            Text("You are logged in!")
+            Text("successfully logged out!")
                 .font(.largeTitle)
                 .padding()
             
