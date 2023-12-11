@@ -21,3 +21,4 @@ What's more exciting? Stay in sync with the evolving landscape! BugBazaar regula
 ## 📷Screenshots
 
 Adding
+Pending 
