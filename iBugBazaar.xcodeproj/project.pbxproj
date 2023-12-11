@@ -15,7 +15,6 @@
 		A149CCE82B1FA1A800D28FA8 /* CouponsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A149CCE72B1FA1A800D28FA8 /* CouponsView.swift */; };
 		A149CCEA2B1FA2E700D28FA8 /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A149CCE92B1FA2E700D28FA8 /* Accelerate.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		A149CCEC2B1FA2F100D28FA8 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A149CCEB2B1FA2F100D28FA8 /* CoreGraphics.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
-		A149CCED2B1FA32500D28FA8 /* Alamofire-master in Frameworks */ = {isa = PBXBuildFile; fileRef = A1FF02CA2AE28EDE00BC96C4 /* Alamofire-master */; };
 		A14EA0912AD6799B00822D02 /* SSRFAttackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A14EA0902AD6799B00822D02 /* SSRFAttackView.swift */; };
 		A14EA09C2AD7176800822D02 /* Link_file_theft.swift in Sources */ = {isa = PBXBuildFile; fileRef = A14EA09B2AD7176800822D02 /* Link_file_theft.swift */; };
 		A14EA09F2AD7CE1F00822D02 /* html_injection.swift in Sources */ = {isa = PBXBuildFile; fileRef = A14EA09E2AD7CE1F00822D02 /* html_injection.swift */; };
@@ -84,9 +83,7 @@
 		A1FF02C22AE26AAD00BC96C4 /* page2.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1FF02BA2AE26AAD00BC96C4 /* page2.swift */; };
 		A1FF02C32AE26AAD00BC96C4 /* postview.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1FF02BB2AE26AAD00BC96C4 /* postview.swift */; };
 		A1FF02C72AE27A7500BC96C4 /* contact_us.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1FF02C62AE27A7500BC96C4 /* contact_us.swift */; };
-		A1FF02CB2AE28EDE00BC96C4 /* Alamofire-master in Resources */ = {isa = PBXBuildFile; fileRef = A1FF02CA2AE28EDE00BC96C4 /* Alamofire-master */; };
 		A1FF02CF2AE304DA00BC96C4 /* memory.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1FF02CE2AE304DA00BC96C4 /* memory.swift */; };
-		A1FF02D52AE30A0100BC96C4 /* Framework-master in Resources */ = {isa = PBXBuildFile; fileRef = A1FF02D42AE30A0100BC96C4 /* Framework-master */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -190,9 +187,7 @@
 		A1FF02BA2AE26AAD00BC96C4 /* page2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = page2.swift; path = "vulnios_prod/Ui and code/page2.swift"; sourceTree = SOURCE_ROOT; };
 		A1FF02BB2AE26AAD00BC96C4 /* postview.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = postview.swift; path = "vulnios_prod/Ui and code/postview.swift"; sourceTree = SOURCE_ROOT; };
 		A1FF02C62AE27A7500BC96C4 /* contact_us.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = contact_us.swift; sourceTree = "<group>"; };
-		A1FF02CA2AE28EDE00BC96C4 /* Alamofire-master */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = "Alamofire-master"; path = "../../../Alamofire-master"; sourceTree = "<group>"; };
 		A1FF02CE2AE304DA00BC96C4 /* memory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = memory.swift; sourceTree = "<group>"; };
-		A1FF02D42AE30A0100BC96C4 /* Framework-master */ = {isa = PBXFileReference; lastKnownFileType = folder; name = "Framework-master"; path = "../Framework-master"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -200,7 +195,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A149CCED2B1FA32500D28FA8 /* Alamofire-master in Frameworks */,
 				A149CCEC2B1FA2F100D28FA8 /* CoreGraphics.framework in Frameworks */,
 				A149CCEA2B1FA2E700D28FA8 /* Accelerate.framework in Frameworks */,
 			);
@@ -248,7 +242,6 @@
 			children = (
 				A11BDF652B24B63800D37BD9 /* Bandit.plist */,
 				A1F770E32AF522D90026530D /* Packages */,
-				A1FF02D42AE30A0100BC96C4 /* Framework-master */,
 				A15F3AF42A28D0A9006BA7D4 /* vulnios_prod */,
 				A15F3B052A28D0AA006BA7D4 /* vulnios_prodTests */,
 				A15F3B0F2A28D0AA006BA7D4 /* vulnios_prodUITests */,
@@ -460,7 +453,6 @@
 		A1FF02C52AE27A6200BC96C4 /* Other */ = {
 			isa = PBXGroup;
 			children = (
-				A1FF02CA2AE28EDE00BC96C4 /* Alamofire-master */,
 				A1FF02C62AE27A7500BC96C4 /* contact_us.swift */,
 				A1F770E82AF9591F0026530D /* KeychainItemAccessibility.swift */,
 				A1F770EA2AF959750026530D /* KeychainWrapper.swift */,
@@ -590,11 +582,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A1FF02CB2AE28EDE00BC96C4 /* Alamofire-master in Resources */,
 				A15F3AFD2A28D0AA006BA7D4 /* Preview Assets.xcassets in Resources */,
 				A15F3AFA2A28D0AA006BA7D4 /* Assets.xcassets in Resources */,
 				A11BDF662B24B63800D37BD9 /* Bandit.plist in Resources */,
-				A1FF02D52AE30A0100BC96C4 /* Framework-master in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

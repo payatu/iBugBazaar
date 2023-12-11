@@ -75,7 +75,8 @@ struct HomeView: View {
                 .padding()
                 .frame(maxWidth: .infinity, alignment: .leading)
 
-            Text("Project Code - GitHub Link")
+            
+            Link("Project Code - GitHub Link", destination: URL(string: "https://github.com/payatu/iBugBazaar")!)
                 .font(.headline)
                 .padding()
                 .frame(maxWidth: .infinity, alignment: .leading)
