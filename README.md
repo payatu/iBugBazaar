@@ -19,3 +19,5 @@ iBugBazaar offers a wide range of vulnerabilities, from  Arbitrary webview expl
 What's more exciting? Stay in sync with the evolving landscape! BugBazaar regularly updates with fresh vulnerabilities and captivating challenges. Stay vigilant, stay ahead! Get Started Today!
 
 ## 📷Screenshots
+
+Adding
