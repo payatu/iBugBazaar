@@ -11,7 +11,7 @@
 // DispatchQueue.main.asyncAfter is used to set showMessage back to false after a 2-second delay.
 
 import SwiftUI
-    
+
 struct ContactUsplistView: View {
     @State private var name: String = ""
     @State private var email: String = ""
@@ -53,7 +53,7 @@ struct ContactUsplistView: View {
             .navigationBarTitleDisplayMode(.inline)
             .padding()
             .alert(isPresented: $showMessage) {
-                Alert(title: Text("Data Saved"), message: Text("Data sent successfully!"), dismissButton: .default(Text("OK")))
+                Alert(title: Text("Data Saved"), message: Text("Request sent successfully!"), dismissButton: .default(Text("OK")))
             }
         }
     }
@@ -65,7 +65,7 @@ struct ContactUsplistView: View {
             "message": message
         ]
 
-        guard let plistURL = Bundle.main.url(forResource: "kapil", withExtension: "plist") else {
+        guard let plistURL = Bundle.main.url(forResource: "userdata", withExtension: "plist") else {
             return
         }
 
@@ -87,7 +87,6 @@ struct ContactUsplistView: View {
         }
     }
 
-    
     struct ContactUsplistView_Previews: PreviewProvider {
         static var previews: some View {
             ContactUsplistView()

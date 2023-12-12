@@ -11,10 +11,11 @@
 		A113A25E2AF1468200716524 /* Food_view.swift in Sources */ = {isa = PBXBuildFile; fileRef = A113A25D2AF1468200716524 /* Food_view.swift */; };
 		A11BDF662B24B63800D37BD9 /* Bandit.plist in Resources */ = {isa = PBXBuildFile; fileRef = A11BDF652B24B63800D37BD9 /* Bandit.plist */; };
 		A11BDF682B24BAD000D37BD9 /* jailbreakdetection.swift in Sources */ = {isa = PBXBuildFile; fileRef = A11BDF672B24BAD000D37BD9 /* jailbreakdetection.swift */; };
+		A11BDF6A2B2842A200D37BD9 /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A149CCE92B1FA2E700D28FA8 /* Accelerate.framework */; };
+		A11BDF6D2B2842A400D37BD9 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A149CCEB2B1FA2F100D28FA8 /* CoreGraphics.framework */; };
+		A11BDF722B28469B00D37BD9 /* userdata.plist in Resources */ = {isa = PBXBuildFile; fileRef = A11BDF712B28469B00D37BD9 /* userdata.plist */; };
 		A149CCDD2B1E472300D28FA8 /* order access.swift in Sources */ = {isa = PBXBuildFile; fileRef = A149CCDC2B1E472300D28FA8 /* order access.swift */; };
 		A149CCE82B1FA1A800D28FA8 /* CouponsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A149CCE72B1FA1A800D28FA8 /* CouponsView.swift */; };
-		A149CCEA2B1FA2E700D28FA8 /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A149CCE92B1FA2E700D28FA8 /* Accelerate.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
-		A149CCEC2B1FA2F100D28FA8 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A149CCEB2B1FA2F100D28FA8 /* CoreGraphics.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		A14EA0912AD6799B00822D02 /* SSRFAttackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A14EA0902AD6799B00822D02 /* SSRFAttackView.swift */; };
 		A14EA09C2AD7176800822D02 /* Link_file_theft.swift in Sources */ = {isa = PBXBuildFile; fileRef = A14EA09B2AD7176800822D02 /* Link_file_theft.swift */; };
 		A14EA09F2AD7CE1F00822D02 /* html_injection.swift in Sources */ = {isa = PBXBuildFile; fileRef = A14EA09E2AD7CE1F00822D02 /* html_injection.swift */; };
@@ -108,6 +109,7 @@
 		A113A25D2AF1468200716524 /* Food_view.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Food_view.swift; sourceTree = "<group>"; };
 		A11BDF652B24B63800D37BD9 /* Bandit.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Bandit.plist; sourceTree = "<group>"; };
 		A11BDF672B24BAD000D37BD9 /* jailbreakdetection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = jailbreakdetection.swift; sourceTree = "<group>"; };
+		A11BDF712B28469B00D37BD9 /* userdata.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = userdata.plist; sourceTree = "<group>"; };
 		A149CCDC2B1E472300D28FA8 /* order access.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "order access.swift"; sourceTree = "<group>"; };
 		A149CCE72B1FA1A800D28FA8 /* CouponsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CouponsView.swift; sourceTree = "<group>"; };
 		A149CCE92B1FA2E700D28FA8 /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
@@ -195,8 +197,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A149CCEC2B1FA2F100D28FA8 /* CoreGraphics.framework in Frameworks */,
-				A149CCEA2B1FA2E700D28FA8 /* Accelerate.framework in Frameworks */,
+				A11BDF6D2B2842A400D37BD9 /* CoreGraphics.framework in Frameworks */,
+				A11BDF6A2B2842A200D37BD9 /* Accelerate.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -240,6 +242,7 @@
 		A15F3AE92A28D0A9006BA7D4 = {
 			isa = PBXGroup;
 			children = (
+				A11BDF712B28469B00D37BD9 /* userdata.plist */,
 				A11BDF652B24B63800D37BD9 /* Bandit.plist */,
 				A1F770E32AF522D90026530D /* Packages */,
 				A15F3AF42A28D0A9006BA7D4 /* vulnios_prod */,
@@ -583,6 +586,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A15F3AFD2A28D0AA006BA7D4 /* Preview Assets.xcassets in Resources */,
+				A11BDF722B28469B00D37BD9 /* userdata.plist in Resources */,
 				A15F3AFA2A28D0AA006BA7D4 /* Assets.xcassets in Resources */,
 				A11BDF662B24B63800D37BD9 /* Bandit.plist in Resources */,
 			);
