@@ -19,10 +19,7 @@ iBugBazaar offers a wide range of vulnerabilities, from  Arbitrary webview expl
 What's more exciting? Stay in sync with the evolving landscape! BugBazaar regularly updates with fresh vulnerabilities and captivating challenges. Stay vigilant, stay ahead! Get Started Today!
 
 ## 📷Screenshots
-
-Adding
-Pending 
-Updated
+![Untitled (1715 x 1080 px) (1)](https://github.com/payatu/iBugBazaar/assets/151744825/70eb1a20-176d-436a-b55e-673f690b1871)
 
 ## ⚠️Vulnerabilities
 1. API Key Storage: Storing API keys in Plist files.
