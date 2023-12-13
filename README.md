@@ -46,6 +46,8 @@ Updated
 19. Vulnerable Functions: Presence of functions with potential security vulnerabilities.
 20. Allowing All URL Redirections: Lack of restriction on URL redirections.
 21. Jailbreak Detection Bypass: Potential methods to bypass jailbreak detection.
+22. Application Debuggable: Enabled for debugging, exposing potential security risks.
+23. Improper Input Validation: Lack of proper validation for user inputs, posing security vulnerabilities.
 
 ## Core Team
 |   |   |   |
