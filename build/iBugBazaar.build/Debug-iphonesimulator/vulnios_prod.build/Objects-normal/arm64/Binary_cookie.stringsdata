@@ -1,0 +1,36 @@
+{
+  "source": "/Users/effortlessdevsec/Downloads/nwe/vulnios_prod/Other/Binary_cookie.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "Binary Cookies Exercise"
+      },
+      {
+        "comment": "",
+        "key": "User Information"
+      },
+      {
+        "comment": "",
+        "key": "Verify Cookies"
+      },
+      {
+        "comment": "",
+        "key": "Name"
+      },
+      {
+        "comment": "",
+        "key": "Session Token"
+      },
+      {
+        "comment": "",
+        "key": "CSRF Token"
+      },
+      {
+        "comment": "",
+        "key": "Verify"
+      }
+    ]
+  },
+  "version": 1
+}

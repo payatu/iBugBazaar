@@ -1,0 +1,12 @@
+{
+  "source": "/Users/effortlessdevsec/Downloads/nwe/vulnios_prod/Food Model/product_row.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "$%lld"
+      }
+    ]
+  },
+  "version": 1
+}

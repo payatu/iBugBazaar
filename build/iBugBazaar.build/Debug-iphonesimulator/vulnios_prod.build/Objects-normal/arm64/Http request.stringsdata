@@ -1,0 +1,16 @@
+{
+  "source": "/Users/effortlessdevsec/Downloads/nwe/vulnios_prod/Other/Http request.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "Response: %@"
+      },
+      {
+        "comment": "",
+        "key": "Send Report"
+      }
+    ]
+  },
+  "version": 1
+}

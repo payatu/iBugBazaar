@@ -1,0 +1,36 @@
+{
+  "source": "/Users/effortlessdevsec/Downloads/nwe/vulnios_prod/Other/Vulnerable functions.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "Function Demo"
+      },
+      {
+        "comment": "",
+        "key": "MD5 Hash of 'Hello World': %@"
+      },
+      {
+        "comment": "",
+        "key": "SHA1 Hash of 'Hello World': %@"
+      },
+      {
+        "comment": "",
+        "key": "Random Number: %lld"
+      },
+      {
+        "comment": "",
+        "key": "Malloc Example: %@"
+      },
+      {
+        "comment": "",
+        "key": "Alloca Example: %lld"
+      },
+      {
+        "comment": "",
+        "key": "Strncpy Example: %@"
+      }
+    ]
+  },
+  "version": 1
+}

@@ -1,0 +1,32 @@
+{
+  "source": "/Users/effortlessdevsec/Downloads/nwe/vulnios_prod/wallet/CardDetailView.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "Bank Name"
+      },
+      {
+        "comment": "",
+        "key": "VALID"
+      },
+      {
+        "comment": "",
+        "key": "CARDHOLDER"
+      },
+      {
+        "comment": "",
+        "key": "Mask sensitive data"
+      },
+      {
+        "comment": "",
+        "key": "MONTH/YEAR"
+      },
+      {
+        "comment": "",
+        "key": "Expiry (MM/YY)"
+      }
+    ]
+  },
+  "version": 1
+}

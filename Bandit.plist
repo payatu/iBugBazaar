@@ -1,10 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<!--
+   Bandit.plist
+   iBugBazaar
+
+   Created by Kapil Gurav on 09/12/23.
+   Copyright (c) 2023 ___ORGANIZATIONNAME___. All rights reserved.
+-->
 <plist version="1.0">
-<dict>
-	<key>Username </key>
-	<string>Bandit</string>
-	<key>Password</key>
-	<string>Payatu</string>
-</dict>
+<dict/>
 </plist>

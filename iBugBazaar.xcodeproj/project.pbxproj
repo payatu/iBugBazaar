@@ -7,15 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		58BF6C802BC959A600071EBF /* app_intigrity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58BF6C7F2BC959A600071EBF /* app_intigrity.swift */; };
+		58BF6C842BC95FDF00071EBF /* appsecure.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58BF6C832BC95FDF00071EBF /* appsecure.swift */; };
+		58BF6C862BC9A48A00071EBF /* appprotect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58BF6C852BC9A48A00071EBF /* appprotect.swift */; };
+		58BF6C8A2BCAAB9300071EBF /* shoowappalert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58BF6C892BCAAB9300071EBF /* shoowappalert.swift */; };
+		58E24AA82BD7979E0083D200 /* IOSSecuritySuite in Frameworks */ = {isa = PBXBuildFile; productRef = 58E24AA72BD7979E0083D200 /* IOSSecuritySuite */; };
+		58E529A92BDA82D000EF8936 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 58E529A82BDA82D000EF8936 /* Launch Screen.storyboard */; };
+		58F9FCAB2BC86866001E783E /* loginbutton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58F9FCAA2BC86866001E783E /* loginbutton.swift */; };
+		58F9FCAD2BC86974001E783E /* checklogin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58F9FCAC2BC86974001E783E /* checklogin.swift */; };
+		58F9FCAF2BC87949001E783E /* auth.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58F9FCAE2BC87949001E783E /* auth.swift */; };
+		58F9FCB12BC87BBB001E783E /* showalert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58F9FCB02BC87BBB001E783E /* showalert.swift */; };
+		58F9FCB62BC88C8B001E783E /* app_security.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58F9FCB52BC88C8B001E783E /* app_security.swift */; };
 		A105772E2A822EDA00DB638F /* Wallet_balance.swift in Sources */ = {isa = PBXBuildFile; fileRef = A105772D2A822EDA00DB638F /* Wallet_balance.swift */; };
 		A113A25E2AF1468200716524 /* Food_view.swift in Sources */ = {isa = PBXBuildFile; fileRef = A113A25D2AF1468200716524 /* Food_view.swift */; };
 		A11BDF662B24B63800D37BD9 /* Bandit.plist in Resources */ = {isa = PBXBuildFile; fileRef = A11BDF652B24B63800D37BD9 /* Bandit.plist */; };
 		A11BDF682B24BAD000D37BD9 /* jailbreakdetection.swift in Sources */ = {isa = PBXBuildFile; fileRef = A11BDF672B24BAD000D37BD9 /* jailbreakdetection.swift */; };
-		A11BDF6A2B2842A200D37BD9 /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A149CCE92B1FA2E700D28FA8 /* Accelerate.framework */; };
-		A11BDF6D2B2842A400D37BD9 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A149CCEB2B1FA2F100D28FA8 /* CoreGraphics.framework */; };
-		A11BDF722B28469B00D37BD9 /* userdata.plist in Resources */ = {isa = PBXBuildFile; fileRef = A11BDF712B28469B00D37BD9 /* userdata.plist */; };
 		A149CCDD2B1E472300D28FA8 /* order access.swift in Sources */ = {isa = PBXBuildFile; fileRef = A149CCDC2B1E472300D28FA8 /* order access.swift */; };
 		A149CCE82B1FA1A800D28FA8 /* CouponsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A149CCE72B1FA1A800D28FA8 /* CouponsView.swift */; };
+		A149CCEA2B1FA2E700D28FA8 /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A149CCE92B1FA2E700D28FA8 /* Accelerate.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		A149CCEC2B1FA2F100D28FA8 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A149CCEB2B1FA2F100D28FA8 /* CoreGraphics.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		A14EA0912AD6799B00822D02 /* SSRFAttackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A14EA0902AD6799B00822D02 /* SSRFAttackView.swift */; };
 		A14EA09C2AD7176800822D02 /* Link_file_theft.swift in Sources */ = {isa = PBXBuildFile; fileRef = A14EA09B2AD7176800822D02 /* Link_file_theft.swift */; };
 		A14EA09F2AD7CE1F00822D02 /* html_injection.swift in Sources */ = {isa = PBXBuildFile; fileRef = A14EA09E2AD7CE1F00822D02 /* html_injection.swift */; };
@@ -105,11 +115,20 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		58BF6C7F2BC959A600071EBF /* app_intigrity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = app_intigrity.swift; sourceTree = "<group>"; };
+		58BF6C832BC95FDF00071EBF /* appsecure.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = appsecure.swift; sourceTree = "<group>"; };
+		58BF6C852BC9A48A00071EBF /* appprotect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = appprotect.swift; sourceTree = "<group>"; };
+		58BF6C892BCAAB9300071EBF /* shoowappalert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = shoowappalert.swift; sourceTree = "<group>"; };
+		58E529A82BDA82D000EF8936 /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		58F9FCAA2BC86866001E783E /* loginbutton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = loginbutton.swift; sourceTree = "<group>"; };
+		58F9FCAC2BC86974001E783E /* checklogin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = checklogin.swift; sourceTree = "<group>"; };
+		58F9FCAE2BC87949001E783E /* auth.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = auth.swift; sourceTree = "<group>"; };
+		58F9FCB02BC87BBB001E783E /* showalert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = showalert.swift; sourceTree = "<group>"; };
+		58F9FCB52BC88C8B001E783E /* app_security.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = app_security.swift; sourceTree = "<group>"; };
 		A105772D2A822EDA00DB638F /* Wallet_balance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wallet_balance.swift; sourceTree = "<group>"; };
 		A113A25D2AF1468200716524 /* Food_view.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Food_view.swift; sourceTree = "<group>"; };
 		A11BDF652B24B63800D37BD9 /* Bandit.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Bandit.plist; sourceTree = "<group>"; };
 		A11BDF672B24BAD000D37BD9 /* jailbreakdetection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = jailbreakdetection.swift; sourceTree = "<group>"; };
-		A11BDF712B28469B00D37BD9 /* userdata.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = userdata.plist; sourceTree = "<group>"; };
 		A149CCDC2B1E472300D28FA8 /* order access.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "order access.swift"; sourceTree = "<group>"; };
 		A149CCE72B1FA1A800D28FA8 /* CouponsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CouponsView.swift; sourceTree = "<group>"; };
 		A149CCE92B1FA2E700D28FA8 /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
@@ -175,8 +194,6 @@
 		A18A00F12B0D3056001B5C58 /* Hidden lebel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Hidden lebel.swift"; sourceTree = "<group>"; };
 		A18A00F32B10C69C001B5C58 /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
 		A1925E282AE1128000C50F92 /* sample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sample.swift; sourceTree = "<group>"; };
-		A1F770E42AF522D90026530D /* KeychainAccess-master */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = "KeychainAccess-master"; path = "../KeychainAccess-master"; sourceTree = "<group>"; };
-		A1F770E52AF957890026530D /* Alamofire.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; name = Alamofire.podspec; path = "../Alamofire-master/Alamofire.podspec"; sourceTree = "<group>"; };
 		A1F770E82AF9591F0026530D /* KeychainItemAccessibility.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeychainItemAccessibility.swift; sourceTree = "<group>"; };
 		A1F770EA2AF959750026530D /* KeychainWrapper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeychainWrapper.swift; sourceTree = "<group>"; };
 		A1F770EC2AF9649A0026530D /* Uploaded.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Uploaded.swift; sourceTree = "<group>"; };
@@ -197,8 +214,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A11BDF6D2B2842A400D37BD9 /* CoreGraphics.framework in Frameworks */,
-				A11BDF6A2B2842A200D37BD9 /* Accelerate.framework in Frameworks */,
+				A149CCEC2B1FA2F100D28FA8 /* CoreGraphics.framework in Frameworks */,
+				A149CCEA2B1FA2E700D28FA8 /* Accelerate.framework in Frameworks */,
+				58E24AA82BD7979E0083D200 /* IOSSecuritySuite in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -219,12 +237,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		58F9FCB42BC88C6E001E783E /* App_Security */ = {
+			isa = PBXGroup;
+			children = (
+				58F9FCB52BC88C8B001E783E /* app_security.swift */,
+				58BF6C7F2BC959A600071EBF /* app_intigrity.swift */,
+				58BF6C832BC95FDF00071EBF /* appsecure.swift */,
+				58BF6C852BC9A48A00071EBF /* appprotect.swift */,
+			);
+			path = App_Security;
+			sourceTree = "<group>";
+		};
 		A14EA0952AD6823100822D02 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
 				A149CCEB2B1FA2F100D28FA8 /* CoreGraphics.framework */,
 				A149CCE92B1FA2E700D28FA8 /* Accelerate.framework */,
-				A1F770E52AF957890026530D /* Alamofire.podspec */,
 				A14EA0962AD682CD00822D02 /* InterfaceBuilderKit.framework */,
 			);
 			name = Frameworks;
@@ -242,7 +270,6 @@
 		A15F3AE92A28D0A9006BA7D4 = {
 			isa = PBXGroup;
 			children = (
-				A11BDF712B28469B00D37BD9 /* userdata.plist */,
 				A11BDF652B24B63800D37BD9 /* Bandit.plist */,
 				A1F770E32AF522D90026530D /* Packages */,
 				A15F3AF42A28D0A9006BA7D4 /* vulnios_prod */,
@@ -267,6 +294,7 @@
 		A15F3AF42A28D0A9006BA7D4 /* vulnios_prod */ = {
 			isa = PBXGroup;
 			children = (
+				58F9FCB42BC88C6E001E783E /* App_Security */,
 				A1FF02C52AE27A6200BC96C4 /* Other */,
 				A14EA09D2AD7CDFE00822D02 /* Deeplink */,
 				A14EA08D2AD5543F00822D02 /* vulnios-prod-Info.plist */,
@@ -317,6 +345,7 @@
 				A15F3AF52A28D0A9006BA7D4 /* vulnios_prodApp.swift */,
 				A15F3AF72A28D0A9006BA7D4 /* ContentView.swift */,
 				A15F3AF92A28D0AA006BA7D4 /* Assets.xcassets */,
+				58E529A82BDA82D000EF8936 /* Launch Screen.storyboard */,
 			);
 			path = APP;
 			sourceTree = "<group>";
@@ -402,8 +431,12 @@
 			isa = PBXGroup;
 			children = (
 				A15F3B672A28D758006BA7D4 /* Loginscreen.swift */,
+				58F9FCAE2BC87949001E783E /* auth.swift */,
+				58F9FCAC2BC86974001E783E /* checklogin.swift */,
 				A15F3B2D2A28D2BF006BA7D4 /* LogoutView.swift */,
 				A18A00EF2B0D29AF001B5C58 /* PINAuthenticationView.swift */,
+				58F9FCAA2BC86866001E783E /* loginbutton.swift */,
+				58F9FCB02BC87BBB001E783E /* showalert.swift */,
 			);
 			path = Login;
 			sourceTree = "<group>";
@@ -435,7 +468,6 @@
 		A1F770E32AF522D90026530D /* Packages */ = {
 			isa = PBXGroup;
 			children = (
-				A1F770E42AF522D90026530D /* KeychainAccess-master */,
 			);
 			name = Packages;
 			sourceTree = "<group>";
@@ -467,6 +499,7 @@
 				A18A00ED2B0CEAD9001B5C58 /* Security pin.swift */,
 				A18A00F12B0D3056001B5C58 /* Hidden lebel.swift */,
 				A11BDF672B24BAD000D37BD9 /* jailbreakdetection.swift */,
+				58BF6C892BCAAB9300071EBF /* shoowappalert.swift */,
 			);
 			path = Other;
 			sourceTree = "<group>";
@@ -487,6 +520,9 @@
 			dependencies = (
 			);
 			name = vulnios_prod;
+			packageProductDependencies = (
+				58E24AA72BD7979E0083D200 /* IOSSecuritySuite */,
+			);
 			productName = vulnios_prod;
 			productReference = A15F3AF22A28D0A9006BA7D4 /* vulnios_prod.app */;
 			productType = "com.apple.product-type.application";
@@ -560,14 +596,13 @@
 			);
 			mainGroup = A15F3AE92A28D0A9006BA7D4;
 			packageReferences = (
-				A15F3B6E2A2A4BE5006BA7D4 /* XCRemoteSwiftPackageReference "Javascript" */,
-				A15F3B6F2A2A4BFD006BA7D4 /* XCRemoteSwiftPackageReference "30-Days-Of-JavaScript" */,
 				A15F3B7D2A386318006BA7D4 /* XCRemoteSwiftPackageReference "keychain-swift" */,
 				A14EA0922AD67C1D00822D02 /* XCRemoteSwiftPackageReference "swift-nio" */,
 				A14EA0932AD67E9000822D02 /* XCRemoteSwiftPackageReference "Fuzi" */,
 				A14EA0942AD67EF800822D02 /* XCRemoteSwiftPackageReference "SwiftSoup" */,
 				A14EA09A2AD6D60D00822D02 /* XCRemoteSwiftPackageReference "Alamofire" */,
 				A1F770E62AF958510026530D /* XCRemoteSwiftPackageReference "SwiftKeychainWrapper" */,
+				58E24AA62BD7975C0083D200 /* XCRemoteSwiftPackageReference "IOSSecuritySuite" */,
 			);
 			productRefGroup = A15F3AF32A28D0A9006BA7D4 /* Products */;
 			projectDirPath = "";
@@ -586,8 +621,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				A15F3AFD2A28D0AA006BA7D4 /* Preview Assets.xcassets in Resources */,
-				A11BDF722B28469B00D37BD9 /* userdata.plist in Resources */,
 				A15F3AFA2A28D0AA006BA7D4 /* Assets.xcassets in Resources */,
+				58E529A92BDA82D000EF8936 /* Launch Screen.storyboard in Resources */,
 				A11BDF662B24B63800D37BD9 /* Bandit.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -614,6 +649,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				A1699D0A2ADDAC6000E0E0BB /* Chnage_password.swift in Sources */,
+				58F9FCB62BC88C8B001E783E /* app_security.swift in Sources */,
+				58BF6C802BC959A600071EBF /* app_intigrity.swift in Sources */,
 				A15F3B542A28D4FC006BA7D4 /* product_row.swift in Sources */,
 				A1FF02BF2AE26AAD00BC96C4 /* SwiftUIView.swift in Sources */,
 				A15F3B682A28D758006BA7D4 /* Loginscreen.swift in Sources */,
@@ -661,11 +698,16 @@
 				A15F3B312A28D2FF006BA7D4 /* edit_profile.swift in Sources */,
 				A15F3B592A28D556006BA7D4 /* PaymentView.swift in Sources */,
 				A18A00EE2B0CEAD9001B5C58 /* Security pin.swift in Sources */,
+				58F9FCAB2BC86866001E783E /* loginbutton.swift in Sources */,
 				A149CCE82B1FA1A800D28FA8 /* CouponsView.swift in Sources */,
+				58F9FCB12BC87BBB001E783E /* showalert.swift in Sources */,
+				58F9FCAD2BC86974001E783E /* checklogin.swift in Sources */,
 				A15F3B7C2A335AFF006BA7D4 /* webview.swift in Sources */,
 				A15F3B4A2A28D47C006BA7D4 /* CartManager.swift in Sources */,
 				A15F3B622A28D69B006BA7D4 /* View_model.swift in Sources */,
 				A15F3B5E2A28D66F006BA7D4 /* User_profile.swift in Sources */,
+				58BF6C842BC95FDF00071EBF /* appsecure.swift in Sources */,
+				58F9FCAF2BC87949001E783E /* auth.swift in Sources */,
 				A15F3B462A28D430006BA7D4 /* cart_view.swift in Sources */,
 				A15F3B6D2A28D88A006BA7D4 /* View_model_food.swift in Sources */,
 				A15F3B522A28D4E9006BA7D4 /* Product_list.swift in Sources */,
@@ -675,8 +717,10 @@
 				A14EA09C2AD7176800822D02 /* Link_file_theft.swift in Sources */,
 				A15F3B4E2A28D4BB006BA7D4 /* ClipboardCache.swift in Sources */,
 				A1FF02C12AE26AAD00BC96C4 /* Profile_edit.swift in Sources */,
+				58BF6C8A2BCAAB9300071EBF /* shoowappalert.swift in Sources */,
 				A18A00E52B0C7EA4001B5C58 /* Billing information.swift in Sources */,
 				A15F3B272A28D246006BA7D4 /* sidemenuoptionview.swift in Sources */,
+				58BF6C862BC9A48A00071EBF /* appprotect.swift in Sources */,
 				A18A00EA2B0CE3CE001B5C58 /* Vulnerable functions.swift in Sources */,
 				A1FF02C32AE26AAD00BC96C4 /* postview.swift in Sources */,
 				A15F3B602A28D683006BA7D4 /* Users.swift in Sources */,
@@ -843,7 +887,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"vulnios_prod/Preview Content\"";
-				DEVELOPMENT_TEAM = 53P2C88W6V;
+				DEVELOPMENT_TEAM = XGZDXZVJ4N;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "vulnios-prod-Info.plist";
@@ -853,6 +897,7 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
 				INFOPLIST_KEY_UIRequiresFullScreen = NO;
 				INFOPLIST_KEY_UIStatusBarHidden = NO;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
@@ -880,7 +925,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"vulnios_prod/Preview Content\"";
-				DEVELOPMENT_TEAM = 53P2C88W6V;
+				DEVELOPMENT_TEAM = XGZDXZVJ4N;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "vulnios-prod-Info.plist";
@@ -890,6 +935,7 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
 				INFOPLIST_KEY_UIRequiresFullScreen = NO;
 				INFOPLIST_KEY_UIStatusBarHidden = NO;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
@@ -1026,6 +1072,14 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
+		58E24AA62BD7975C0083D200 /* XCRemoteSwiftPackageReference "IOSSecuritySuite" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/securing/IOSSecuritySuite.git";
+			requirement = {
+				kind = exactVersion;
+				version = 1.9.11;
+			};
+		};
 		A14EA0922AD67C1D00822D02 /* XCRemoteSwiftPackageReference "swift-nio" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/apple/swift-nio.git";
@@ -1058,22 +1112,6 @@
 				version = 5.8.0;
 			};
 		};
-		A15F3B6E2A2A4BE5006BA7D4 /* XCRemoteSwiftPackageReference "Javascript" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/cybertron10/Javascript";
-			requirement = {
-				branch = master;
-				kind = branch;
-			};
-		};
-		A15F3B6F2A2A4BFD006BA7D4 /* XCRemoteSwiftPackageReference "30-Days-Of-JavaScript" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/Asabeneh/30-Days-Of-JavaScript";
-			requirement = {
-				branch = master;
-				kind = branch;
-			};
-		};
 		A15F3B7D2A386318006BA7D4 /* XCRemoteSwiftPackageReference "keychain-swift" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/evgenyneu/keychain-swift.git";
@@ -1091,6 +1129,14 @@
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		58E24AA72BD7979E0083D200 /* IOSSecuritySuite */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 58E24AA62BD7975C0083D200 /* XCRemoteSwiftPackageReference "IOSSecuritySuite" */;
+			productName = IOSSecuritySuite;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = A15F3AEA2A28D0A9006BA7D4 /* Project object */;
 }

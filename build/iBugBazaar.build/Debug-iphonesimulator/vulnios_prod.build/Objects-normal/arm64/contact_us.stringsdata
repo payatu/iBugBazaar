@@ -1,0 +1,12 @@
+{
+  "source": "/Users/effortlessdevsec/Downloads/nwe/vulnios_prod/Other/contact_us.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "Contact Us"
+      }
+    ]
+  },
+  "version": 1
+}

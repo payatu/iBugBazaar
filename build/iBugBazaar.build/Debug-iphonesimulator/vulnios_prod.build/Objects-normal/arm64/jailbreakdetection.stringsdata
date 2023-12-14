@@ -1,0 +1,32 @@
+{
+  "source": "/Users/effortlessdevsec/Downloads/nwe/vulnios_prod/Other/jailbreakdetection.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "Jailbreak Detection"
+      },
+      {
+        "comment": "",
+        "key": "This app cannot run on jailbroken devices."
+      },
+      {
+        "comment": "",
+        "key": "Congratulations! Your device is not jailbroken."
+      },
+      {
+        "comment": "",
+        "key": "Device is Jailbroken"
+      },
+      {
+        "comment": "",
+        "key": "This app cannot run on jailbroken devices. !!Exiting App"
+      },
+      {
+        "comment": "",
+        "key": "OK"
+      }
+    ]
+  },
+  "version": 1
+}

@@ -1,0 +1,20 @@
+{
+  "source": "/Users/effortlessdevsec/Downloads/nwe/vulnios_prod/Food Model/ClipboardCache.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "Clipboard Cache"
+      },
+      {
+        "comment": "",
+        "key": "Clipboard Data"
+      },
+      {
+        "comment": "",
+        "key": "Set Clipboard Data"
+      }
+    ]
+  },
+  "version": 1
+}

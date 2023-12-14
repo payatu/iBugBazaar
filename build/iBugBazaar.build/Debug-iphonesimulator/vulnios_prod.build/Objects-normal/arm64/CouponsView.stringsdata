@@ -1,0 +1,24 @@
+{
+  "source": "/Users/effortlessdevsec/Downloads/nwe/vulnios_prod/Profile/CouponsView.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "This is a hidden label."
+      },
+      {
+        "comment": "",
+        "key": "Coupons: XYZ123, ABC456, DEF789"
+      },
+      {
+        "comment": "",
+        "key": "Toggle Label Visibility"
+      },
+      {
+        "comment": "",
+        "key": "Show Coupons"
+      }
+    ]
+  },
+  "version": 1
+}

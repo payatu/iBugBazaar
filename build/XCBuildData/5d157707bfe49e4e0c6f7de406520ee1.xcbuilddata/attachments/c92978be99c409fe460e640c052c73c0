@@ -1,0 +1,18 @@
+{
+  "" : {
+    "diagnostics" : "/Users/effortlessdevsec/Downloads/nwe/build/iBugBazaar.build/Debug-iphonesimulator/vulnios_prodTests.build/Objects-normal/arm64/vulnios_prodTests-master.dia",
+    "emit-module-dependencies" : "/Users/effortlessdevsec/Downloads/nwe/build/iBugBazaar.build/Debug-iphonesimulator/vulnios_prodTests.build/Objects-normal/arm64/vulnios_prodTests-master-emit-module.d",
+    "emit-module-diagnostics" : "/Users/effortlessdevsec/Downloads/nwe/build/iBugBazaar.build/Debug-iphonesimulator/vulnios_prodTests.build/Objects-normal/arm64/vulnios_prodTests-master-emit-module.dia",
+    "swift-dependencies" : "/Users/effortlessdevsec/Downloads/nwe/build/iBugBazaar.build/Debug-iphonesimulator/vulnios_prodTests.build/Objects-normal/arm64/vulnios_prodTests-master.swiftdeps"
+  },
+  "/Users/effortlessdevsec/Downloads/nwe/vulnios_prodTests/vulnios_prodTests.swift" : {
+    "const-values" : "/Users/effortlessdevsec/Downloads/nwe/build/iBugBazaar.build/Debug-iphonesimulator/vulnios_prodTests.build/Objects-normal/arm64/vulnios_prodTests.swiftconstvalues",
+    "dependencies" : "/Users/effortlessdevsec/Downloads/nwe/build/iBugBazaar.build/Debug-iphonesimulator/vulnios_prodTests.build/Objects-normal/arm64/vulnios_prodTests.d",
+    "diagnostics" : "/Users/effortlessdevsec/Downloads/nwe/build/iBugBazaar.build/Debug-iphonesimulator/vulnios_prodTests.build/Objects-normal/arm64/vulnios_prodTests.dia",
+    "index-unit-output-path" : "/iBugBazaar.build/Debug-iphonesimulator/vulnios_prodTests.build/Objects-normal/arm64/vulnios_prodTests.o",
+    "llvm-bc" : "/Users/effortlessdevsec/Downloads/nwe/build/iBugBazaar.build/Debug-iphonesimulator/vulnios_prodTests.build/Objects-normal/arm64/vulnios_prodTests.bc",
+    "object" : "/Users/effortlessdevsec/Downloads/nwe/build/iBugBazaar.build/Debug-iphonesimulator/vulnios_prodTests.build/Objects-normal/arm64/vulnios_prodTests.o",
+    "swift-dependencies" : "/Users/effortlessdevsec/Downloads/nwe/build/iBugBazaar.build/Debug-iphonesimulator/vulnios_prodTests.build/Objects-normal/arm64/vulnios_prodTests.swiftdeps",
+    "swiftmodule" : "/Users/effortlessdevsec/Downloads/nwe/build/iBugBazaar.build/Debug-iphonesimulator/vulnios_prodTests.build/Objects-normal/arm64/vulnios_prodTests~partial.swiftmodule"
+  }
+}

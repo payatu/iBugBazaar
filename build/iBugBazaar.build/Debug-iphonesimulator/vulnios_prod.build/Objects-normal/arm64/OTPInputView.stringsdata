@@ -1,0 +1,24 @@
+{
+  "source": "/Users/effortlessdevsec/Downloads/nwe/vulnios_prod/wallet/OTPInputView.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "Enter OTP"
+      },
+      {
+        "comment": "",
+        "key": "Entered wrong OTP"
+      },
+      {
+        "comment": "",
+        "key": "OTP"
+      },
+      {
+        "comment": "",
+        "key": "Verify OTP"
+      }
+    ]
+  },
+  "version": 1
+}

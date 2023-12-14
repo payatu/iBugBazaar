@@ -1,0 +1,16 @@
+{
+  "source": "/Users/effortlessdevsec/Downloads/nwe/vulnios_prod/Profile/SwiftUIView.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "%@"
+      },
+      {
+        "comment": "",
+        "key": "From till 1999"
+      }
+    ]
+  },
+  "version": 1
+}

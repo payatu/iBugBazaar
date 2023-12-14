@@ -1,0 +1,20 @@
+{
+  "source": "/Users/effortlessdevsec/Downloads/nwe/vulnios_prod/wallet/Wallet_balance.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "Add Money to Wallet"
+      },
+      {
+        "comment": "",
+        "key": "Amount"
+      },
+      {
+        "comment": "",
+        "key": "Add Money"
+      }
+    ]
+  },
+  "version": 1
+}

@@ -1,0 +1,68 @@
+{
+  "source": "/Users/effortlessdevsec/Downloads/nwe/vulnios_prod/Profile/New_profile.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "Settings"
+      },
+      {
+        "comment": "",
+        "key": "Payment Settings"
+      },
+      {
+        "comment": "",
+        "key": "Personal Information"
+      },
+      {
+        "comment": "",
+        "key": "Allow push notifications to get latest food and coupon deals"
+      },
+      {
+        "comment": "",
+        "key": "Currency"
+      },
+      {
+        "comment": "",
+        "key": "Payment Method"
+      },
+      {
+        "comment": "",
+        "key": "Add a Credit/Debit Card to your account"
+      },
+      {
+        "comment": "",
+        "key": "Profile Information"
+      },
+      {
+        "comment": "",
+        "key": "Extra Setting"
+      },
+      {
+        "comment": "",
+        "key": "Send Crash Report"
+      },
+      {
+        "comment": "",
+        "key": "Set PIN"
+      },
+      {
+        "comment": "",
+        "key": "Location Usage"
+      },
+      {
+        "comment": "",
+        "key": "Biometric/PIN"
+      },
+      {
+        "comment": "",
+        "key": "PIN set successfully!"
+      },
+      {
+        "comment": "",
+        "key": "Enter PIN"
+      }
+    ]
+  },
+  "version": 1
+}

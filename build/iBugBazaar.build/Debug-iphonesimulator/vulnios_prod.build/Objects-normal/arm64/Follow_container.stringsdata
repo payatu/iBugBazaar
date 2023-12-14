@@ -1,0 +1,20 @@
+{
+  "source": "/Users/effortlessdevsec/Downloads/nwe/vulnios_prod/Ui and code/Follow_container.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "%lld"
+      },
+      {
+        "comment": "",
+        "key": "Follwers"
+      },
+      {
+        "comment": "",
+        "key": "Follwing"
+      }
+    ]
+  },
+  "version": 1
+}

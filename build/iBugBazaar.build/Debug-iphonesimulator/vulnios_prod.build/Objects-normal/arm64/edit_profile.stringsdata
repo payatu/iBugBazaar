@@ -1,0 +1,12 @@
+{
+  "source": "/Users/effortlessdevsec/Downloads/nwe/vulnios_prod/Profile/edit_profile.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "Edit Profile"
+      }
+    ]
+  },
+  "version": 1
+}

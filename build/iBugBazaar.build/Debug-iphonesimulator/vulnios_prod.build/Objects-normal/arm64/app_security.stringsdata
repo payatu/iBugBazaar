@@ -1,0 +1,16 @@
+{
+  "source": "/Users/effortlessdevsec/Downloads/nwe/vulnios_prod/App_Security/app_security.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "Selected Option: %@"
+      },
+      {
+        "comment": "",
+        "key": "Options"
+      }
+    ]
+  },
+  "version": 1
+}

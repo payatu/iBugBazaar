@@ -1,0 +1,44 @@
+{
+  "source": "/Users/effortlessdevsec/Downloads/nwe/vulnios_prod/Contact US/Contact_us_plist.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "Contact to support"
+      },
+      {
+        "comment": "",
+        "key": "Here you can contact easily and communicate with the support team, ensuring that their questions, concerns, or feedback regarding the food application are addressed promptly"
+      },
+      {
+        "comment": "",
+        "key": "Name"
+      },
+      {
+        "comment": "",
+        "key": "Email"
+      },
+      {
+        "comment": "",
+        "key": "Message"
+      },
+      {
+        "comment": "",
+        "key": "Submit Request"
+      },
+      {
+        "comment": "",
+        "key": "Data Saved"
+      },
+      {
+        "comment": "",
+        "key": "Data sent successfully!"
+      },
+      {
+        "comment": "",
+        "key": "OK"
+      }
+    ]
+  },
+  "version": 1
+}

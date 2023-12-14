@@ -1,0 +1,24 @@
+{
+  "source": "/Users/effortlessdevsec/Downloads/nwe/vulnios_prod/Other/Security pin.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "You're authenticated!"
+      },
+      {
+        "comment": "",
+        "key": "Authenticate with Biometrics"
+      },
+      {
+        "comment": "",
+        "key": "Enter PIN"
+      },
+      {
+        "comment": "",
+        "key": "Submit"
+      }
+    ]
+  },
+  "version": 1
+}

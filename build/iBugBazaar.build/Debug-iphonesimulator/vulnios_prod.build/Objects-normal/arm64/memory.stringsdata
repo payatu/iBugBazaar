@@ -1,0 +1,20 @@
+{
+  "source": "/Users/effortlessdevsec/Downloads/nwe/vulnios_prod/Other/memory.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "Card Number"
+      },
+      {
+        "comment": "",
+        "key": "CCV"
+      },
+      {
+        "comment": "",
+        "key": "Pay Item"
+      }
+    ]
+  },
+  "version": 1
+}

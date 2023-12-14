@@ -1,0 +1,6 @@
+Target dependency graph (3 targets)
+Target 'vulnios_prodUITests' in project 'iBugBazaar'
+➜ Explicit dependency on target 'vulnios_prod' in project 'iBugBazaar'
+Target 'vulnios_prodTests' in project 'iBugBazaar'
+➜ Explicit dependency on target 'vulnios_prod' in project 'iBugBazaar'
+Target 'vulnios_prod' in project 'iBugBazaar' (no dependencies)

@@ -20,6 +20,7 @@ enum viewmodule: Int, CaseIterable {
     case Support
     case Orders
     case Info
+    case App_Security
     
     var Title: String{
         
@@ -36,6 +37,7 @@ enum viewmodule: Int, CaseIterable {
         case .Support: return ("Contact")
         case .Orders: return ("My Orders")
         case .Info: return ("More Info")
+        case .App_Security: return("App Security Check")
             
             
         }
@@ -57,6 +59,7 @@ enum viewmodule: Int, CaseIterable {
         case .Info: return ("info.circle")
         
         
+        case .App_Security: return("info.circle")
         }
     }
     

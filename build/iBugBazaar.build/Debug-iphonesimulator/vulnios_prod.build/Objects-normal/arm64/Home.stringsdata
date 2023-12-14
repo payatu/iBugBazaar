@@ -1,0 +1,52 @@
+{
+  "source": "/Users/effortlessdevsec/Downloads/nwe/vulnios_prod/sidebar and lists/Home.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "BugBazaar Project"
+      },
+      {
+        "comment": "",
+        "key": "Greetings from BugBazaar! We appreciate your choice of BugBazaar, the Swift adaptation of the original BugBazaar iOS app. It is designed to pinpoint security vulnerabilities and offer effective solutions. The exercises are crafted to provide hands-on learning experiences for iOS developers and mobile penetration testers."
+      },
+      {
+        "comment": "",
+        "key": "Project Code - GitHub Link"
+      },
+      {
+        "comment": "",
+        "key": "Acknowledgments: "
+      },
+      {
+        "comment": "",
+        "key": "Kapil Gurav"
+      },
+      {
+        "comment": "",
+        "key": "To actively contribute to the BugBazaar iOS project, connect with "
+      },
+      {
+        "comment": "",
+        "key": "kapil@payatu.io"
+      },
+      {
+        "comment": "",
+        "key": "For further details, explore "
+      },
+      {
+        "comment": "",
+        "key": "Check the latest updates by following "
+      },
+      {
+        "comment": "",
+        "key": "Payatu's official website."
+      },
+      {
+        "comment": "",
+        "key": "Payatu on Twitter."
+      }
+    ]
+  },
+  "version": 1
+}

@@ -1,0 +1,44 @@
+{
+  "source": "/Users/effortlessdevsec/Downloads/nwe/vulnios_prod/Deeplink/Link_file_theft.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "Main View"
+      },
+      {
+        "comment": "",
+        "key": "Other Content in the Main View"
+      },
+      {
+        "comment": "",
+        "key": "Go to Link_file_theft"
+      },
+      {
+        "comment": "",
+        "key": "Hey you've found SECRET WAY"
+      },
+      {
+        "comment": "",
+        "key": "Username: Bandit"
+      },
+      {
+        "comment": "",
+        "key": "Password: payatu"
+      },
+      {
+        "comment": "",
+        "key": "API_KEY: PROD_USER_SECRET_TOKEN_PAYATU"
+      },
+      {
+        "comment": "",
+        "key": "No data written to file."
+      },
+      {
+        "comment": "",
+        "key": "Data Written to File:"
+      }
+    ]
+  },
+  "version": 1
+}
