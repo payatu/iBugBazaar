@@ -49,4 +49,4 @@ What's more exciting? Stay in sync with the evolving landscape! BugBazaar regula
 ## Core Team
 |   |   |   |
 |---|---|---|
-| Kapil Gurav | Security Consultant at Payatu- Mobile | [GitHub](https://github.com/banditkapil/) |
+| Kapil Gurav | Security Consultant at Payatu- Mobile | [GitHub](https://github.com/banditkapil/) | [Twitter](https://twitter.com/hackersden_) |
