@@ -47,6 +47,6 @@ What's more exciting? Stay in sync with the evolving landscape! BugBazaar regula
 23. Improper Input Validation: Lack of proper validation for user inputs, posing security vulnerabilities.
 
 ## Core Team
-|   |   |   |   |
-|---|---|---|---|
-| Kapil Gurav | Security Consultant at Payatu- Mobile | [GitHub](https://github.com/banditkapil/) | [Twitter](https://twitter.com/hackersden_) |
+|   |   |   |   |   |
+|---|---|---|---|---|
+| Kapil Gurav | Security Consultant at Payatu- Mobile | [GitHub](https://github.com/banditkapil/) | [Twitter](https://twitter.com/hackersden_) | [LinkedIn](https://www.linkedin.com/in/imkapilgurav/) |
