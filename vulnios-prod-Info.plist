@@ -67,18 +67,7 @@
 		</dict>
 	</array>
 	<key>NSAppTransportSecurity</key>
-	<dict>
-		<key>NSExceptionDomains</key>
-		<dict>
-			<key>bing.com</key>
-			<dict>
-				<key>NSExceptionAllowsInsecureHTTPLoads</key>
-				<true/>
-				<key>NSIncludesSubdomains</key>
-				<true/>
-			</dict>
-		</dict>
-	</dict>
+	<dict/>
 	<key>api</key>
 	<string>Secret_key=We_GoT_FlAg_FrOm_PaYaTu</string>
 </dict>

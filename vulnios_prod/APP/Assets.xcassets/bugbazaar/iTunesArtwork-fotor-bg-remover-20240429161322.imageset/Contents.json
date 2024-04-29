@@ -1,7 +1,6 @@
 {
   "images" : [
     {
-      "filename" : "bugbazaar.png",
       "idiom" : "universal",
       "scale" : "1x"
     },
@@ -11,6 +10,19 @@
     },
     {
       "idiom" : "universal",
+      "scale" : "3x"
+    },
+    {
+      "filename" : "iTunesArtwork@3x-fotor-bg-remover-20240429161322.png",
+      "idiom" : "iphone",
+      "scale" : "1x"
+    },
+    {
+      "idiom" : "iphone",
+      "scale" : "2x"
+    },
+    {
+      "idiom" : "iphone",
       "scale" : "3x"
     }
   ],
