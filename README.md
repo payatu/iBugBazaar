@@ -46,6 +46,14 @@ What's more exciting? Stay in sync with the evolving landscape! BugBazaar regula
 22. Application Debuggable: Enabled for debugging, exposing potential security risks.
 23. Improper Input Validation: Lack of proper validation for user inputs, posing security vulnerabilities.
 
+
+##  🔒Security Controls
+
+Implemented security Controls including jailbreak detection and hooking detection with difficulty levels. Users can test their skills according to the selected security control level
+ - EASY
+ - MEDIUM
+ - ADVANCED
+
 ## Core Team
 |   |   |   |   |   |
 |---|---|---|---|---|
