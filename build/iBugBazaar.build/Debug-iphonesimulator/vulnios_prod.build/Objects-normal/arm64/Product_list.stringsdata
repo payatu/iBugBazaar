@@ -1,0 +1,32 @@
+{
+  "source": "/Users/effortlessdevsec/Downloads/nwe/vulnios_prod/Food Model/Product_list.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "Food Menu"
+      },
+      {
+        "comment": "",
+        "key": "Search Food Menu"
+      },
+      {
+        "comment": "",
+        "key": "Search"
+      },
+      {
+        "comment": "",
+        "key": "XSS Triggered"
+      },
+      {
+        "comment": "",
+        "key": "The result of JavaScript execution is: %@"
+      },
+      {
+        "comment": "",
+        "key": "OK"
+      }
+    ]
+  },
+  "version": 1
+}

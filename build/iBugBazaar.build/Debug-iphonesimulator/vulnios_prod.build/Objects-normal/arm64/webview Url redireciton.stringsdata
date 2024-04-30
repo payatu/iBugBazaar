@@ -1,0 +1,20 @@
+{
+  "source": "/Users/effortlessdevsec/Downloads/nwe/vulnios_prod/Contact US/webview Url redireciton.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "Welcome to Vulnweb"
+      },
+      {
+        "comment": "",
+        "key": "Enter custom URL"
+      },
+      {
+        "comment": "",
+        "key": "Open WebView"
+      }
+    ]
+  },
+  "version": 1
+}

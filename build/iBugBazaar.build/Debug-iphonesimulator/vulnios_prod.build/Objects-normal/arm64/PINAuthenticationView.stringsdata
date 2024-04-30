@@ -1,0 +1,16 @@
+{
+  "source": "/Users/effortlessdevsec/Downloads/nwe/vulnios_prod/Login/PINAuthenticationView.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "Enter PIN"
+      },
+      {
+        "comment": "",
+        "key": "Authenticate"
+      }
+    ]
+  },
+  "version": 1
+}

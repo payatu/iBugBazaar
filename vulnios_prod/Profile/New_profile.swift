@@ -117,9 +117,9 @@ struct AccountView: View {
                             Text("Profile Information")
                         }
                         
-                        NavigationLink(destination:JailbreakCheckView()) {
-                            Text("Extra Setting")
-                        }
+//                        NavigationLink(destination:JailbreakCheckView()) {
+//                            Text("Extra Setting")
+//                        }
                         
                         NavigationLink(destination:httprequest()) {
                             Text("Send Crash Report")

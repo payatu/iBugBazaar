@@ -1,0 +1,28 @@
+{
+  "source": "/Users/effortlessdevsec/Downloads/nwe/vulnios_prod/Payments/PaymentView.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "Payment Gateway"
+      },
+      {
+        "comment": "",
+        "key": "Your cart total is $%.2f"
+      },
+      {
+        "comment": "",
+        "key": "Payment Successful"
+      },
+      {
+        "comment": "",
+        "key": "Show Billing Information"
+      },
+      {
+        "comment": "",
+        "key": "Pay Now"
+      }
+    ]
+  },
+  "version": 1
+}

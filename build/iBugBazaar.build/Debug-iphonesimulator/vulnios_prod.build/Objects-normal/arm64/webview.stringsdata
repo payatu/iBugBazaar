@@ -1,0 +1,32 @@
+{
+  "source": "/Users/effortlessdevsec/Downloads/nwe/vulnios_prod/Contact US/webview.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "Your Email"
+      },
+      {
+        "comment": "",
+        "key": "Your Name"
+      },
+      {
+        "comment": "",
+        "key": "Contact Number"
+      },
+      {
+        "comment": "",
+        "key": "Subject"
+      },
+      {
+        "comment": "",
+        "key": "JavaScript Code"
+      },
+      {
+        "comment": "",
+        "key": "Submit"
+      }
+    ]
+  },
+  "version": 1
+}

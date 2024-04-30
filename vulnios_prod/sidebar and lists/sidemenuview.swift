@@ -14,6 +14,7 @@ struct sidemenuview: View {
     @State private var isWebViewPresented = false
     @State private var walletBalance: Double = 0.0
     @State private var isLoggedIn = true // or however you manage the login state
+    @State private var isLoggedout = false
 
     var body: some View {
         ZStack {
@@ -49,8 +50,12 @@ struct sidemenuview: View {
                         sidemenuoptionview(viewmodule: .Orders)
                     }
                     
-                    NavigationLink(destination: LogoutView(isLoggedIn: $isLoggedIn)) {
+                    NavigationLink(destination: LogoutView(isLoggedIn: $isLoggedIn, isLoggedout: isLoggedout)) {
                         sidemenuoptionview(viewmodule: .logout)
+                    }
+                    
+                    NavigationLink(destination: app_security()) {
+                        sidemenuoptionview(viewmodule: .App_Security)
                     }
                     
 

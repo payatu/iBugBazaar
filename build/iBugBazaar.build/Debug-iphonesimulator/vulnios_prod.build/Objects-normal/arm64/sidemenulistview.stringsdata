@@ -1,0 +1,28 @@
+{
+  "source": "/Users/effortlessdevsec/Downloads/nwe/vulnios_prod/sidebar and lists/sidemenulistview.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "Payatu Labs"
+      },
+      {
+        "comment": "",
+        "key": "@payatulabs"
+      },
+      {
+        "comment": "",
+        "key": "4,036"
+      },
+      {
+        "comment": "",
+        "key": "Followers"
+      },
+      {
+        "comment": "",
+        "key": "637"
+      }
+    ]
+  },
+  "version": 1
+}

@@ -32,6 +32,8 @@ struct LoginAttempt: Identifiable, Codable {
 }
 
 struct Loginscreen: View {
+    @State private var showemptyalert = false
+        @State private var showingInvalidAlert = false
     @State private var username = ""
     @State private var password = ""
     @State private var wrongAttempt = false
@@ -50,37 +52,39 @@ struct Loginscreen: View {
                     .foregroundColor(.white.opacity(1))
 
                 VStack {
+                    
                     Image("Home")
                         .resizable()
-                        .frame(width: 350, height: 350)
-
-                    Text("Login")
-                        .font(.largeTitle)
-                        .bold()
-                        .padding()
+                        .frame(width: 250, height: 250)
+                        
 
                     TextField("Username", text: $username)
                         .textFieldStyle(RoundedBorderTextFieldStyle())
                         .padding()
-
+                    
                     SecureField("Password", text: $password)
                         .textFieldStyle(RoundedBorderTextFieldStyle())
                         .padding()
-
-                    Button("Login") {
-                        authenticateUser()
-                    }
-                    .foregroundColor(.black)
-                    .frame(width: 300, height: 50)
-                    .background(Color.red)
-                    .cornerRadius(10)
-                    .padding()
+                    
+                    Button(action: {authenticateUser()}) {
+                                        Text("Login")
+                                            .foregroundColor(.black)
+                                            .frame(width: 150, height: 50)
+                                            .background(Color.red)
+                                            .cornerRadius(10)
+                                    }
+                                    .padding(.top, 20)
+                                    
+                    Spacer()
+                        .frame(height:90)
+                       
 
                     if wrongAttempt {
                         Text("Invalid username or password.")
                             .foregroundColor(.black)
                             .padding()
                     }
+                    
 
                     NavigationLink("", destination: Home(), isActive: $isLoggedIn)
                 }
@@ -89,45 +93,64 @@ struct Loginscreen: View {
                 checkToken()
                 loadLoginAttempts()
             }
+            
+       
         }
+        
         .navigationBarBackButtonHidden(true)
+     
+                    .alert(isPresented: $showingInvalidAlert) {
+                        Alert(title: Text("Error"), message: Text("Invalid username or password."), dismissButton: .default(Text("OK")))
+                    }
     }
+    
 
     func authenticateUser() {
+        let storedUsername = "Bandit"
+        let storedPassword = "payatu"
         // Print entered username and password to device logs
         print("Entered Username: \(username)")
         print("Entered Password: \(password)")
 
         // Implement proper validation checks for the username and password
         if username.isEmpty || password.isEmpty {
+            showingInvalidAlert = true
             print("Username or password cannot be empty.")
+            print(showemptyalert )
             return
         }
 
-        // Validate the credentials against the stored credentials
-        let storedUsername = "Bandit"
-        let storedPassword = "payatu"
-
-        if username != storedUsername || password != storedPassword {
+        
+        if (username == storedUsername && password == storedPassword) {
+            print("correct username or password.")
+            createAndSaveToken(withPin: "")
+            isLoggedIn = true
+            return
+        }
+        else {
             print("Invalid username or password.")
+            showingInvalidAlert = true
             saveLoginAttempt(username: username, password: password)
             return
-        }
 
-        // Check if a token exists
-        if let _ = UserDefaults.standard.string(forKey: "AuthToken") {
-            // If a token exists, proceed to home screen
-            isLoggedIn = true
-        } else {
-            // If a token does not exist, create a new token and proceed to home screen
-            createAndSaveToken(withPin: "")
+            
         }
+        
     }
 
     func checkToken() {
+
         if let _ = UserDefaults.standard.string(forKey: "AuthToken") {
             // If a token exists, proceed to home screen
+            print("auth token present")
             isLoggedIn = true
+        }
+        
+        else{
+            print("auth token  not present")
+            return
+
+            
         }
     }
 

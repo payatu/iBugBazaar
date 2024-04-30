@@ -1,0 +1,52 @@
+{
+  "source": "/Users/effortlessdevsec/Downloads/nwe/vulnios_prod/wallet/wallet.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "Wallet Balance"
+      },
+      {
+        "comment": "",
+        "key": "$%.2f"
+      },
+      {
+        "comment": "",
+        "key": "Wallet"
+      },
+      {
+        "comment": "",
+        "key": "Add Card"
+      },
+      {
+        "comment": "",
+        "key": "Add Money"
+      },
+      {
+        "comment": "",
+        "key": "Add Money to Wallet"
+      },
+      {
+        "comment": "",
+        "key": "Select Payment Card:"
+      },
+      {
+        "comment": "",
+        "key": "Payment Successful"
+      },
+      {
+        "comment": "",
+        "key": "Card"
+      },
+      {
+        "comment": "",
+        "key": "Amount"
+      },
+      {
+        "comment": "",
+        "key": "%@ - %@"
+      }
+    ]
+  },
+  "version": 1
+}

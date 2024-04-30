@@ -1,0 +1,12 @@
+{
+  "source": "/Users/effortlessdevsec/Downloads/nwe/vulnios_prod/Profile/FingerprintAuthToggle.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "Enable Fingerprint Authentication"
+      }
+    ]
+  },
+  "version": 1
+}

@@ -33,6 +33,7 @@ struct Home: View {
                 }) {
                     Image(systemName: "list.bullet")
                         .foregroundColor(.black)
+                        .padding(.top, 10)
                         .padding()
                 }
                 
@@ -64,7 +65,7 @@ struct Home_Previews: PreviewProvider {
 struct HomeView: View {
     var body: some View {
         VStack(alignment: .leading, spacing: 10) {
-            Text("Project BugBazaar")
+            Text("BugBazaar Project")
                 .font(.title)
                 .fontWeight(.bold)
                 .padding()
@@ -75,17 +76,16 @@ struct HomeView: View {
                 .padding()
                 .frame(maxWidth: .infinity, alignment: .leading)
 
-    
-            
-            Link("Project Code - GitHub Link", destination: URL(string: "https://github.com/payatu/iBugBazaar")!)
+            Text("Project Code - GitHub Link")
                 .font(.headline)
                 .padding()
                 .frame(maxWidth: .infinity, alignment: .leading)
 
-            HStack(spacing: 0) {
+            VStack(spacing: 0) {
                 Text("Acknowledgments: ")
                     .font(.body)
 
+               
                 HStack {
                     Image("twitter-icon") // Replace with your custom Twitter icon
                         .resizable()
@@ -94,7 +94,21 @@ struct HomeView: View {
                     Link("Kapil Gurav", destination: URL(string: "https://twitter.com/hackersden_")!)
                         .font(.body)
                         .foregroundColor(.blue)
+                    
                 }
+                
+                HStack {
+                    Image("twitter-icon") // Replace with your custom Twitter icon
+                        .resizable()
+                        .frame(width: 20, height: 20)
+                        .foregroundColor(.blue)
+                    Link("Amit prajapat", destination: URL(string: "https://twitter.com/bit3threat?lang=en")!)
+                        .font(.body)
+                        .foregroundColor(.blue)
+                    
+                }
+                
+
             }
             .padding()
 

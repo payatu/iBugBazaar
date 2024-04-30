@@ -1,0 +1,16 @@
+{
+  "source": "/Users/effortlessdevsec/Downloads/nwe/vulnios_prod/Other/Hidden lebel.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "This is a hidden label."
+      },
+      {
+        "comment": "",
+        "key": "Toggle Label Visibility"
+      }
+    ]
+  },
+  "version": 1
+}

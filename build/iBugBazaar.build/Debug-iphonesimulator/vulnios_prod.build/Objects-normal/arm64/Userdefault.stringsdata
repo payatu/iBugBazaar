@@ -1,0 +1,44 @@
+{
+  "source": "/Users/effortlessdevsec/Downloads/nwe/vulnios_prod/NsUserdefault/Userdefault.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "Name:"
+      },
+      {
+        "comment": "",
+        "key": "Credit Card No:"
+      },
+      {
+        "comment": "",
+        "key": "Expiry:"
+      },
+      {
+        "comment": "",
+        "key": "Add CVV"
+      },
+      {
+        "comment": "",
+        "key": "Actions:"
+      },
+      {
+        "comment": "",
+        "key": "Please Enter Your Name"
+      },
+      {
+        "comment": "",
+        "key": "Add Credit No"
+      },
+      {
+        "comment": "",
+        "key": "MM/YY"
+      },
+      {
+        "comment": "",
+        "key": "Save Card"
+      }
+    ]
+  },
+  "version": 1
+}

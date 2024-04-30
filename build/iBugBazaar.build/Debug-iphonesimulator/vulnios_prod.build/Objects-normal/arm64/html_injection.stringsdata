@@ -1,0 +1,16 @@
+{
+  "source": "/Users/effortlessdevsec/Downloads/nwe/vulnios_prod/Deeplink/html_injection.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "Hidden Deep Link"
+      },
+      {
+        "comment": "",
+        "key": "No deep link detected."
+      }
+    ]
+  },
+  "version": 1
+}

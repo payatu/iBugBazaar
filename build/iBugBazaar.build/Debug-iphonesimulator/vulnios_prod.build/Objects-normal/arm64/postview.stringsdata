@@ -1,0 +1,32 @@
+{
+  "source": "/Users/effortlessdevsec/Downloads/nwe/vulnios_prod/Ui and code/postview.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": ""
+      },
+      {
+        "comment": "",
+        "key": "Write Your Review"
+      },
+      {
+        "comment": "",
+        "key": "Please Write Your Review"
+      },
+      {
+        "comment": "",
+        "key": "Submit"
+      },
+      {
+        "comment": "",
+        "key": "Reviews"
+      },
+      {
+        "comment": "",
+        "key": "Submitted Reviews"
+      }
+    ]
+  },
+  "version": 1
+}

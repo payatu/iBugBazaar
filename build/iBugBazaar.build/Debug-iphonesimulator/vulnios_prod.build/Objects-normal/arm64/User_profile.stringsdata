@@ -1,0 +1,12 @@
+{
+  "source": "/Users/effortlessdevsec/Downloads/nwe/vulnios_prod/Profile/User_profile.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "Profile"
+      }
+    ]
+  },
+  "version": 1
+}

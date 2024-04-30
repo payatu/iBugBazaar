@@ -1,0 +1,16 @@
+{
+  "source": "/Users/effortlessdevsec/Downloads/nwe/vulnios_prod/Profile/list_postview.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "You are logged in"
+      },
+      {
+        "comment": "",
+        "key": ""
+      }
+    ]
+  },
+  "version": 1
+}

@@ -1,0 +1,16 @@
+{
+  "source": "/Users/effortlessdevsec/Downloads/nwe/vulnios_prod/wallet/Con.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "Pasteboard"
+      },
+      {
+        "comment": "",
+        "key": "Copy"
+      }
+    ]
+  },
+  "version": 1
+}

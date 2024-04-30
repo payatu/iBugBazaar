@@ -1,0 +1,40 @@
+{
+  "source": "/Users/effortlessdevsec/Downloads/nwe/vulnios_prod/Contact US/SSRFAttackView.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "Upload file"
+      },
+      {
+        "comment": "",
+        "key": "Find application path"
+      },
+      {
+        "comment": "",
+        "key": "View local file"
+      },
+      {
+        "comment": "",
+        "key": "File name"
+      },
+      {
+        "comment": "",
+        "key": "Upload"
+      },
+      {
+        "comment": "",
+        "key": "Application path"
+      },
+      {
+        "comment": "",
+        "key": "Find"
+      },
+      {
+        "comment": "",
+        "key": "View"
+      }
+    ]
+  },
+  "version": 1
+}

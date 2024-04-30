@@ -1,0 +1,36 @@
+{
+  "source": "/Users/effortlessdevsec/Downloads/nwe/vulnios_prod/Profile/Profile information.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "Profile Information"
+      },
+      {
+        "comment": "",
+        "key": "Personal Information"
+      },
+      {
+        "comment": "",
+        "key": "Username"
+      },
+      {
+        "comment": "",
+        "key": "Email"
+      },
+      {
+        "comment": "",
+        "key": "Address"
+      },
+      {
+        "comment": "",
+        "key": "Mobile Number"
+      },
+      {
+        "comment": "",
+        "key": "Update Profile"
+      }
+    ]
+  },
+  "version": 1
+}

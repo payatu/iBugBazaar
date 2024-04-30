@@ -1,0 +1,12 @@
+{
+  "source": "/Users/effortlessdevsec/Downloads/nwe/vulnios_prod/Ui and code/page2.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "last Status"
+      }
+    ]
+  },
+  "version": 1
+}

@@ -1,0 +1,28 @@
+{
+  "source": "/Users/effortlessdevsec/Downloads/nwe/vulnios_prod/Profile/Billing information.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "Order History"
+      },
+      {
+        "comment": "",
+        "key": "Username: %@"
+      },
+      {
+        "comment": "",
+        "key": "Amount: $%lf"
+      },
+      {
+        "comment": "",
+        "key": "Order Successful"
+      },
+      {
+        "comment": "",
+        "key": "Order Failed"
+      }
+    ]
+  },
+  "version": 1
+}

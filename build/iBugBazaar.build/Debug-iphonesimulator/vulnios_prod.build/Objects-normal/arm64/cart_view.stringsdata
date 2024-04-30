@@ -1,0 +1,40 @@
+{
+  "source": "/Users/effortlessdevsec/Downloads/nwe/vulnios_prod/Food Model/cart_view.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": ""
+      },
+      {
+        "comment": "",
+        "key": "My Cart"
+      },
+      {
+        "comment": "",
+        "key": "Your cart is empty"
+      },
+      {
+        "comment": "",
+        "key": "Your Cart Total Is"
+      },
+      {
+        "comment": "",
+        "key": "Proceed to Payment"
+      },
+      {
+        "comment": "",
+        "key": "Insufficient Balance"
+      },
+      {
+        "comment": "",
+        "key": "You don't have enough money in your wallet to place this order."
+      },
+      {
+        "comment": "",
+        "key": "OK"
+      }
+    ]
+  },
+  "version": 1
+}
