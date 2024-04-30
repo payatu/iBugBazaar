@@ -50,3 +50,4 @@ What's more exciting? Stay in sync with the evolving landscape! BugBazaar regula
 |   |   |   |   |   |
 |---|---|---|---|---|
 | Kapil Gurav | Security Consultant at Payatu- Mobile | [GitHub](https://github.com/banditkapil/) | [Twitter](https://twitter.com/hackersden_) | [LinkedIn](https://www.linkedin.com/in/imkapilgurav/) |
+| Amit Kumar Prajapat | Lead Security Consultant at Payatu- Mobile | [GitHub](https://github.com/banditAmit) | [LinkedIn](https://www.linkedin.com/in/amit-parjapat/) | [Twitter](https://twitter.com/bit3threat) |
